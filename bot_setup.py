@@ -98,9 +98,6 @@ class MainBot(object):
         elif command.startswith('!stronghold'):
             zitat = random.choice(stronhold)
             self.sendMessage(zitat)
-        elif command.startswith('!invade'):
-            if args.startswith('Prof_Dr_Nereos'):
-                self.sendMessage('Hey!')
 
     # get user from chat message
     def getUser(self, line):
